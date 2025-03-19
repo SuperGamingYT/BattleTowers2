@@ -63,7 +63,7 @@ scoreboard players set Game Time 0
 scoreboard players set Game Weather 0
 scoreboard players set Game Map 0
 scoreboard players set Game DevMode 0
-execute store result score Game Splash run random value 1..83
+execute store result score Game Splash run random value 1..85
 
 
 team add Blue_Team "Blue Team"

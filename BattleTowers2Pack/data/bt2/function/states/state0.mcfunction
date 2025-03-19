@@ -14,6 +14,7 @@ recipe take @a *
 scoreboard objectives setdisplay sidebar
 scoreboard objectives setdisplay list
 xp set @a 0 points
+xp set @a 0 levels
 
 #: TURN OFF FIRE TICK!
 gamerule doFireTick false

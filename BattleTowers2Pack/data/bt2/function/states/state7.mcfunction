@@ -14,6 +14,7 @@ kill @e[type=!minecraft:player,type=!minecraft:armor_stand,type=!minecraft:text_
 fill -91 262 57 -91 263 57 minecraft:dark_oak_planks
 scoreboard players set Game EndState 0
 scoreboard players set Game StartState 0
+scoreboard players set Game EndCount 0
 gamerule doMobSpawning false
 
 #: 3 Ticks
@@ -22,5 +23,5 @@ execute if score Game State matches 7 run scoreboard players add Game WinStateCo
 
 
 #: Get new splash
-execute store result score Game Splash run random value 1..83
+execute store result score Game Splash run random value 1..85
 function bt2:utils/splash
