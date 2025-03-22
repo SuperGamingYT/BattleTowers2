@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"slicedlime","underlined":true,"color":"light_purple","clickEvent":{"action":"open_url","value":"https://www.youtube.com/@slicedlime"}},{"text":" has old minigame tutorials, that I followed. I Wouldn't recommend following them, but do give him a follow for Minecraft news updates!"}]

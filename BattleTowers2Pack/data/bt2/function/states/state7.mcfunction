@@ -23,5 +23,5 @@ execute if score Game State matches 7 run scoreboard players add Game WinStateCo
 
 
 #: Get new splash
-execute store result score Game Splash run random value 1..85
+execute store result score Game Splash run random value 1..99
 function bt2:utils/splash

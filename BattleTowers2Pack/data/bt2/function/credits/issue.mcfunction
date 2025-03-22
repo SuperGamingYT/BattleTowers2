@@ -1,0 +1,1 @@
+tellraw @s {"text":"Report issues on Github [Click Here]!","underlined":true,"clickEvent":{"action":"open_url","value":"https://github.com/SuperGamingYT/BattleTowers2/issues"}}

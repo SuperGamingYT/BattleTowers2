@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Minecraft.tools","underlined":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://minecraft.tools"}},{"text":" and "},{"text":"MCStacker","underlined":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://mcstacker.net/"}},{"text":" have cool tools that helped with the making of this map!"}]

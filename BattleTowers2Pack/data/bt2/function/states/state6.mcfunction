@@ -27,10 +27,7 @@ scoreboard players reset @e[team=Spec_Team] DeathCount
 scoreboard players reset @e[team=Spec_Team] KillCount
 
 #: Scorebards
-execute if score Game WinCondition matches 0 run scoreboard objectives setdisplay sidebar DeathCount
 execute if score Game WinCondition matches 0 run scoreboard objectives setdisplay list DeathCount
-
-execute if score Game WinCondition matches 1 run scoreboard objectives setdisplay sidebar KillCount
 execute if score Game WinCondition matches 1 run scoreboard objectives setdisplay list KillCount
 
 #: Dimension Kills
